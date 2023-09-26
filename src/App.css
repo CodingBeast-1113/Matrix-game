@@ -1,0 +1,19 @@
+
+.matrix-board {
+  padding-top: 20px;;
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+}
+.martix-container {
+  display: flex;
+  justify-content: center;
+}
+.matrix-box {
+  background-color:blueviolet;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:5px; 
+}
